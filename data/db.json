@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "00a41dd9-c82f-4fd1-afcd-54c2733d6c3a",
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "createdAt": "2025-08-20T13:18:42.096Z"
+    },
+    {
+      "id": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "name": "Bruno Silva",
+      "email": "bruno.silva@example.com",
+      "createdAt": "2025-08-20T13:18:42.096Z"
+    },
+    {
+      "id": "0a7f50b2-8085-4af4-8137-8e17be7acfed",
+      "name": "Carla Souza",
+      "email": "carla.souza@example.com",
+      "createdAt": "2025-08-20T13:18:42.096Z"
+    },
+    {
+      "id": "419f9652-48dd-4bc0-a672-e99d106276ac",
+      "name": "Diego Ramos",
+      "email": "diego.ramos@example.com",
+      "createdAt": "2025-08-20T13:18:42.096Z"
+    },
+    {
+      "id": "cfd4a03a-bf7b-4a3d-91c0-9c2933efc728",
+      "name": "Elena Marques",
+      "email": "elena.marques@example.com",
+      "createdAt": "2025-08-20T13:18:42.096Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "4b637c35-976d-421a-816b-558ab4a468c1",
+      "userId": "00a41dd9-c82f-4fd1-afcd-54c2733d6c3a",
+      "type": "expense",
+      "value": 50,
+      "category": "Food",
+      "description": "Grocery shopping",
+      "datetime": "2024-01-15T10:30:00.000Z",
+      "createdAt": "2025-08-20T13:40:36.214Z"
+    }
+  ]
+}
