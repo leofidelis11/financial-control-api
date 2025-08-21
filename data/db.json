@@ -41,12 +41,6 @@
       "name": "John Doe",
       "email": "leo@example.com",
       "createdAt": "2025-08-20T21:15:46.063Z"
-    },
-    {
-      "id": "07966bd8-5817-4f1e-bc53-a59daeda8525",
-      "name": "Joana Darc",
-      "email": "joanadarc@example.com",
-      "createdAt": "2025-08-21T01:46:42.406Z"
     }
   ],
   "transactions": [
@@ -4949,6 +4943,1046 @@
       "description": "",
       "datetime": "2025-08-21T01:46:42.399Z",
       "createdAt": "2025-08-21T01:46:42.399Z"
+    },
+    {
+      "id": "80eaa124-4b2d-4338-ac46-3fb65f5dc94f",
+      "userId": "00a41dd9-c82f-4fd1-afcd-54c2733d6c3a",
+      "type": "expense",
+      "value": 50,
+      "category": "Food",
+      "description": "Groceries",
+      "datetime": "2025-08-21T01:56:24.006Z",
+      "createdAt": "2025-08-21T01:56:24.006Z"
+    },
+    {
+      "id": "746dca06-3c4d-4602-a2c0-ba35a9629e3c",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "income",
+      "value": 1000,
+      "category": "Financial Services",
+      "description": "Donation",
+      "datetime": "2025-08-21T01:56:24.010Z",
+      "createdAt": "2025-08-21T01:56:24.010Z"
+    },
+    {
+      "id": "208ac3e6-3494-4ec4-948f-ceb3d395cea9",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 20,
+      "category": "Pet",
+      "description": "",
+      "datetime": "2025-08-21T01:56:24.015Z",
+      "createdAt": "2025-08-21T01:56:24.015Z"
+    },
+    {
+      "id": "de204935-46cc-4f4a-8be8-914adee8a01c",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Food",
+      "description": "",
+      "datetime": "2025-08-21T01:56:24.027Z",
+      "createdAt": "2025-08-21T01:56:24.027Z"
+    },
+    {
+      "id": "032a9561-644d-4361-9d24-386e1782d57a",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Housing",
+      "description": "",
+      "datetime": "2025-08-21T01:56:24.032Z",
+      "createdAt": "2025-08-21T01:56:24.032Z"
+    },
+    {
+      "id": "dc824709-f968-4ab4-a745-7f985915bd2b",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Transportation",
+      "description": "",
+      "datetime": "2025-08-21T01:56:24.037Z",
+      "createdAt": "2025-08-21T01:56:24.037Z"
+    },
+    {
+      "id": "36369f5c-0dbb-430f-88b6-f2555c6175fa",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Education",
+      "description": "",
+      "datetime": "2025-08-21T01:56:24.041Z",
+      "createdAt": "2025-08-21T01:56:24.041Z"
+    },
+    {
+      "id": "2bded8a9-74e4-4de3-9b15-ed2870a447d9",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Pet",
+      "description": "",
+      "datetime": "2025-08-21T01:56:24.045Z",
+      "createdAt": "2025-08-21T01:56:24.045Z"
+    },
+    {
+      "id": "bcb0ac35-5798-40e9-8718-d8b475d28684",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Health",
+      "description": "",
+      "datetime": "2025-08-21T01:56:24.049Z",
+      "createdAt": "2025-08-21T01:56:24.049Z"
+    },
+    {
+      "id": "20d0286d-6b0c-41e9-bb00-c2a3556e628b",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Personal",
+      "description": "",
+      "datetime": "2025-08-21T01:56:24.054Z",
+      "createdAt": "2025-08-21T01:56:24.054Z"
+    },
+    {
+      "id": "085ea6ce-2988-48b7-8fc1-c97ed35cc092",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Leisure",
+      "description": "",
+      "datetime": "2025-08-21T01:56:24.058Z",
+      "createdAt": "2025-08-21T01:56:24.058Z"
+    },
+    {
+      "id": "455af046-6e77-474f-a75f-109d8c9635a5",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Financial Services",
+      "description": "",
+      "datetime": "2025-08-21T01:56:24.062Z",
+      "createdAt": "2025-08-21T01:56:24.062Z"
+    },
+    {
+      "id": "8e61da6c-365f-4f66-b73c-c455648fd9f2",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Transportation",
+      "description": "",
+      "datetime": "2025-08-21T01:56:24.069Z",
+      "createdAt": "2025-08-21T01:56:24.069Z"
+    },
+    {
+      "id": "90638ef4-284e-4d0f-bce8-0e625dca3e82",
+      "userId": "00a41dd9-c82f-4fd1-afcd-54c2733d6c3a",
+      "type": "expense",
+      "value": 50,
+      "category": "Food",
+      "description": "Groceries",
+      "datetime": "2025-08-21T01:57:28.032Z",
+      "createdAt": "2025-08-21T01:57:28.032Z"
+    },
+    {
+      "id": "4f83e689-2ca2-4a77-b8ca-965d245b417e",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "income",
+      "value": 1000,
+      "category": "Financial Services",
+      "description": "Donation",
+      "datetime": "2025-08-21T01:57:28.036Z",
+      "createdAt": "2025-08-21T01:57:28.036Z"
+    },
+    {
+      "id": "c6efa590-9d9d-421d-8b4c-3ac3e5c44485",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 20,
+      "category": "Pet",
+      "description": "",
+      "datetime": "2025-08-21T01:57:28.041Z",
+      "createdAt": "2025-08-21T01:57:28.041Z"
+    },
+    {
+      "id": "57b6a994-9cb4-451f-88c8-7a76f77b7020",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Food",
+      "description": "",
+      "datetime": "2025-08-21T01:57:28.051Z",
+      "createdAt": "2025-08-21T01:57:28.051Z"
+    },
+    {
+      "id": "aae595e7-d208-4bdd-92e9-42491c8de4a5",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Housing",
+      "description": "",
+      "datetime": "2025-08-21T01:57:28.056Z",
+      "createdAt": "2025-08-21T01:57:28.056Z"
+    },
+    {
+      "id": "7e9194fb-e7e1-4371-abe4-738b73b58365",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Transportation",
+      "description": "",
+      "datetime": "2025-08-21T01:57:28.061Z",
+      "createdAt": "2025-08-21T01:57:28.061Z"
+    },
+    {
+      "id": "eca4f963-36ab-4aba-bb2d-66cf776b55e8",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Education",
+      "description": "",
+      "datetime": "2025-08-21T01:57:28.065Z",
+      "createdAt": "2025-08-21T01:57:28.065Z"
+    },
+    {
+      "id": "225fe485-83dc-4953-80a0-95a5a6cae91d",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Pet",
+      "description": "",
+      "datetime": "2025-08-21T01:57:28.069Z",
+      "createdAt": "2025-08-21T01:57:28.069Z"
+    },
+    {
+      "id": "ead4fd64-a253-48a9-a374-5c9e35c6eaac",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Health",
+      "description": "",
+      "datetime": "2025-08-21T01:57:28.073Z",
+      "createdAt": "2025-08-21T01:57:28.073Z"
+    },
+    {
+      "id": "d9d06644-2f94-4f23-ad63-b68127874545",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Personal",
+      "description": "",
+      "datetime": "2025-08-21T01:57:28.077Z",
+      "createdAt": "2025-08-21T01:57:28.077Z"
+    },
+    {
+      "id": "24e84cd1-c49c-45d5-a29c-b1c8fb95cf0d",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Leisure",
+      "description": "",
+      "datetime": "2025-08-21T01:57:28.081Z",
+      "createdAt": "2025-08-21T01:57:28.081Z"
+    },
+    {
+      "id": "98b3f491-7106-40a9-9f4a-3b1bb9bdee02",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Financial Services",
+      "description": "",
+      "datetime": "2025-08-21T01:57:28.085Z",
+      "createdAt": "2025-08-21T01:57:28.085Z"
+    },
+    {
+      "id": "5bb5d662-f93d-4787-8be3-edc76ff4c7cd",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Transportation",
+      "description": "",
+      "datetime": "2025-08-21T01:57:28.091Z",
+      "createdAt": "2025-08-21T01:57:28.091Z"
+    },
+    {
+      "id": "78ab72f2-8012-4a87-b870-07760ca6dab0",
+      "userId": "00a41dd9-c82f-4fd1-afcd-54c2733d6c3a",
+      "type": "expense",
+      "value": 50,
+      "category": "Food",
+      "description": "Groceries",
+      "datetime": "2025-08-21T01:58:15.036Z",
+      "createdAt": "2025-08-21T01:58:15.036Z"
+    },
+    {
+      "id": "66f152ed-ece5-44b8-b868-4cd34003fe5c",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "income",
+      "value": 1000,
+      "category": "Financial Services",
+      "description": "Donation",
+      "datetime": "2025-08-21T01:58:15.041Z",
+      "createdAt": "2025-08-21T01:58:15.041Z"
+    },
+    {
+      "id": "4aebe4e7-4ea5-4df1-8590-11d24043cec5",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 20,
+      "category": "Pet",
+      "description": "",
+      "datetime": "2025-08-21T01:58:15.046Z",
+      "createdAt": "2025-08-21T01:58:15.046Z"
+    },
+    {
+      "id": "171018c8-db18-48be-908f-c135612e08f5",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Food",
+      "description": "",
+      "datetime": "2025-08-21T01:58:15.056Z",
+      "createdAt": "2025-08-21T01:58:15.056Z"
+    },
+    {
+      "id": "8de60ad8-bbc9-4086-a462-ff4a87a3e909",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Housing",
+      "description": "",
+      "datetime": "2025-08-21T01:58:15.062Z",
+      "createdAt": "2025-08-21T01:58:15.062Z"
+    },
+    {
+      "id": "ac361e02-330e-4f9c-b173-254d27c23f2d",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Transportation",
+      "description": "",
+      "datetime": "2025-08-21T01:58:15.066Z",
+      "createdAt": "2025-08-21T01:58:15.066Z"
+    },
+    {
+      "id": "b2603405-cef3-440e-966e-dca9c1f8a150",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Education",
+      "description": "",
+      "datetime": "2025-08-21T01:58:15.070Z",
+      "createdAt": "2025-08-21T01:58:15.070Z"
+    },
+    {
+      "id": "809993e3-7636-4fa9-b194-960c6c9629d4",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Pet",
+      "description": "",
+      "datetime": "2025-08-21T01:58:15.074Z",
+      "createdAt": "2025-08-21T01:58:15.074Z"
+    },
+    {
+      "id": "61f0ce7b-8f1b-49ec-b0d8-a6716f3e3f15",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Health",
+      "description": "",
+      "datetime": "2025-08-21T01:58:15.078Z",
+      "createdAt": "2025-08-21T01:58:15.078Z"
+    },
+    {
+      "id": "d74c97a5-6cde-41f2-93ce-e5cc179fe2c0",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Personal",
+      "description": "",
+      "datetime": "2025-08-21T01:58:15.082Z",
+      "createdAt": "2025-08-21T01:58:15.082Z"
+    },
+    {
+      "id": "39405ce3-b96f-464c-a807-25174ec4e401",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Leisure",
+      "description": "",
+      "datetime": "2025-08-21T01:58:15.085Z",
+      "createdAt": "2025-08-21T01:58:15.085Z"
+    },
+    {
+      "id": "b6bab0d7-dd01-4d66-9dac-efa8ae3e67ba",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Financial Services",
+      "description": "",
+      "datetime": "2025-08-21T01:58:15.090Z",
+      "createdAt": "2025-08-21T01:58:15.090Z"
+    },
+    {
+      "id": "c0a69ce9-85ef-4e84-b376-002578e2a4d3",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Transportation",
+      "description": "",
+      "datetime": "2025-08-21T01:58:15.096Z",
+      "createdAt": "2025-08-21T01:58:15.096Z"
+    },
+    {
+      "id": "98cbce7d-85af-40db-92df-2cad281cbb3e",
+      "userId": "00a41dd9-c82f-4fd1-afcd-54c2733d6c3a",
+      "type": "expense",
+      "value": 50,
+      "category": "Food",
+      "description": "Groceries",
+      "datetime": "2025-08-21T02:22:01.258Z",
+      "createdAt": "2025-08-21T02:22:01.258Z"
+    },
+    {
+      "id": "63e9e3da-9064-4e83-84db-b763686395f3",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "income",
+      "value": 1000,
+      "category": "Financial Services",
+      "description": "Donation",
+      "datetime": "2025-08-21T02:22:01.263Z",
+      "createdAt": "2025-08-21T02:22:01.263Z"
+    },
+    {
+      "id": "9db02eb9-fcf6-4dd4-b0c7-8d1510c2dbb5",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 20,
+      "category": "Pet",
+      "description": "",
+      "datetime": "2025-08-21T02:22:01.268Z",
+      "createdAt": "2025-08-21T02:22:01.268Z"
+    },
+    {
+      "id": "8f974749-cead-4bbb-a0f2-b5a0abac4dfe",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Food",
+      "description": "",
+      "datetime": "2025-08-21T02:22:01.278Z",
+      "createdAt": "2025-08-21T02:22:01.278Z"
+    },
+    {
+      "id": "7a17d9fb-fbbb-410b-95b7-d3c36de51741",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Housing",
+      "description": "",
+      "datetime": "2025-08-21T02:22:01.284Z",
+      "createdAt": "2025-08-21T02:22:01.284Z"
+    },
+    {
+      "id": "ca7f4a16-1d5a-4fe6-ad52-a0e63a52a519",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Transportation",
+      "description": "",
+      "datetime": "2025-08-21T02:22:01.289Z",
+      "createdAt": "2025-08-21T02:22:01.289Z"
+    },
+    {
+      "id": "713bf537-cdcf-4039-b454-9b55ae2bf1cc",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Education",
+      "description": "",
+      "datetime": "2025-08-21T02:22:01.293Z",
+      "createdAt": "2025-08-21T02:22:01.293Z"
+    },
+    {
+      "id": "7c935569-71e5-4d93-8128-46edb6cf47cc",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Pet",
+      "description": "",
+      "datetime": "2025-08-21T02:22:01.298Z",
+      "createdAt": "2025-08-21T02:22:01.298Z"
+    },
+    {
+      "id": "460cb413-c3f2-41e2-a6f8-00113030a0c8",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Health",
+      "description": "",
+      "datetime": "2025-08-21T02:22:01.302Z",
+      "createdAt": "2025-08-21T02:22:01.302Z"
+    },
+    {
+      "id": "bc3e4615-922b-4fd8-b0b8-6cac6c88a4a6",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Personal",
+      "description": "",
+      "datetime": "2025-08-21T02:22:01.306Z",
+      "createdAt": "2025-08-21T02:22:01.306Z"
+    },
+    {
+      "id": "00e5bf1c-2122-4b24-8700-27a75a085b24",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Leisure",
+      "description": "",
+      "datetime": "2025-08-21T02:22:01.311Z",
+      "createdAt": "2025-08-21T02:22:01.311Z"
+    },
+    {
+      "id": "a2d3ee97-3411-4775-8e5a-26cc68bb6bdc",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Financial Services",
+      "description": "",
+      "datetime": "2025-08-21T02:22:01.315Z",
+      "createdAt": "2025-08-21T02:22:01.315Z"
+    },
+    {
+      "id": "5a55c361-0783-4e34-8bdd-5b1d9e30f482",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Transportation",
+      "description": "",
+      "datetime": "2025-08-21T02:22:01.321Z",
+      "createdAt": "2025-08-21T02:22:01.321Z"
+    },
+    {
+      "id": "0c3cebad-8456-4b70-9f0c-e34ef5fc6e1c",
+      "userId": "00a41dd9-c82f-4fd1-afcd-54c2733d6c3a",
+      "type": "expense",
+      "value": 50,
+      "category": "Food",
+      "description": "Groceries",
+      "datetime": "2025-08-21T02:22:18.049Z",
+      "createdAt": "2025-08-21T02:22:18.049Z"
+    },
+    {
+      "id": "4dc16579-586f-4135-9fe3-3f0033fd071f",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "income",
+      "value": 1000,
+      "category": "Financial Services",
+      "description": "Donation",
+      "datetime": "2025-08-21T02:22:18.054Z",
+      "createdAt": "2025-08-21T02:22:18.054Z"
+    },
+    {
+      "id": "79b98b13-da4b-40ce-99b5-20aa86947c72",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 20,
+      "category": "Pet",
+      "description": "",
+      "datetime": "2025-08-21T02:22:18.058Z",
+      "createdAt": "2025-08-21T02:22:18.058Z"
+    },
+    {
+      "id": "eb7b5ca4-ff31-4769-8925-2710855aa2e9",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Food",
+      "description": "",
+      "datetime": "2025-08-21T02:22:18.068Z",
+      "createdAt": "2025-08-21T02:22:18.068Z"
+    },
+    {
+      "id": "87021fc8-7b53-4dd3-bfea-8f3d1aaefac4",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Housing",
+      "description": "",
+      "datetime": "2025-08-21T02:22:18.074Z",
+      "createdAt": "2025-08-21T02:22:18.074Z"
+    },
+    {
+      "id": "2885df7a-374b-4190-8b6f-03b1d952cee3",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Transportation",
+      "description": "",
+      "datetime": "2025-08-21T02:22:18.079Z",
+      "createdAt": "2025-08-21T02:22:18.079Z"
+    },
+    {
+      "id": "3f4a6bec-a455-4d2b-b355-c547a6b59a8d",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Education",
+      "description": "",
+      "datetime": "2025-08-21T02:22:18.083Z",
+      "createdAt": "2025-08-21T02:22:18.083Z"
+    },
+    {
+      "id": "64cf9115-1735-4c07-8cf8-ae6b5d228115",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Pet",
+      "description": "",
+      "datetime": "2025-08-21T02:22:18.087Z",
+      "createdAt": "2025-08-21T02:22:18.087Z"
+    },
+    {
+      "id": "3b58b791-884c-4fa8-93f2-adeaca0f8e31",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Health",
+      "description": "",
+      "datetime": "2025-08-21T02:22:18.091Z",
+      "createdAt": "2025-08-21T02:22:18.091Z"
+    },
+    {
+      "id": "34b4712b-a513-4326-98cb-5fd8b06dad5e",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Personal",
+      "description": "",
+      "datetime": "2025-08-21T02:22:18.095Z",
+      "createdAt": "2025-08-21T02:22:18.095Z"
+    },
+    {
+      "id": "33833f0e-ae31-4320-a1ee-db62820398e8",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Leisure",
+      "description": "",
+      "datetime": "2025-08-21T02:22:18.099Z",
+      "createdAt": "2025-08-21T02:22:18.099Z"
+    },
+    {
+      "id": "b06bcf62-440c-4066-9f17-99b5c3fb21f6",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Financial Services",
+      "description": "",
+      "datetime": "2025-08-21T02:22:18.103Z",
+      "createdAt": "2025-08-21T02:22:18.103Z"
+    },
+    {
+      "id": "9f12f503-b272-430f-aa2b-3c12a906bda3",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Transportation",
+      "description": "",
+      "datetime": "2025-08-21T02:22:18.109Z",
+      "createdAt": "2025-08-21T02:22:18.109Z"
+    },
+    {
+      "id": "90403da1-6853-405e-ad45-59fcbfb0fd42",
+      "userId": "00a41dd9-c82f-4fd1-afcd-54c2733d6c3a",
+      "type": "expense",
+      "value": 50,
+      "category": "Food",
+      "description": "Groceries",
+      "datetime": "2025-08-21T02:28:32.874Z",
+      "createdAt": "2025-08-21T02:28:32.874Z"
+    },
+    {
+      "id": "16bd2c57-e025-4e78-aa6e-0d9491aeec42",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "income",
+      "value": 1000,
+      "category": "Financial Services",
+      "description": "Donation",
+      "datetime": "2025-08-21T02:28:32.878Z",
+      "createdAt": "2025-08-21T02:28:32.878Z"
+    },
+    {
+      "id": "dc9cff98-6a4f-4343-9290-66617320fb97",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 20,
+      "category": "Pet",
+      "description": "",
+      "datetime": "2025-08-21T02:28:32.883Z",
+      "createdAt": "2025-08-21T02:28:32.883Z"
+    },
+    {
+      "id": "1459c524-3901-4b6c-befa-5bedd13c354c",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Food",
+      "description": "",
+      "datetime": "2025-08-21T02:28:32.894Z",
+      "createdAt": "2025-08-21T02:28:32.894Z"
+    },
+    {
+      "id": "d193d2b8-debb-4a40-8d6b-1525e8c02669",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Housing",
+      "description": "",
+      "datetime": "2025-08-21T02:28:32.900Z",
+      "createdAt": "2025-08-21T02:28:32.900Z"
+    },
+    {
+      "id": "0e6f82fe-2000-44a4-9549-34f9a01247fd",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Transportation",
+      "description": "",
+      "datetime": "2025-08-21T02:28:32.904Z",
+      "createdAt": "2025-08-21T02:28:32.904Z"
+    },
+    {
+      "id": "062dd7e8-aecc-4bdb-b4f1-486d07f3af33",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Education",
+      "description": "",
+      "datetime": "2025-08-21T02:28:32.908Z",
+      "createdAt": "2025-08-21T02:28:32.908Z"
+    },
+    {
+      "id": "d6c57675-8392-4973-ac23-838a2a763400",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Pet",
+      "description": "",
+      "datetime": "2025-08-21T02:28:32.913Z",
+      "createdAt": "2025-08-21T02:28:32.913Z"
+    },
+    {
+      "id": "af7bca20-c0b0-4004-8b01-c48d70b54951",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Health",
+      "description": "",
+      "datetime": "2025-08-21T02:28:32.917Z",
+      "createdAt": "2025-08-21T02:28:32.917Z"
+    },
+    {
+      "id": "5a59b443-e215-426a-8056-082bfe758fe9",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Personal",
+      "description": "",
+      "datetime": "2025-08-21T02:28:32.921Z",
+      "createdAt": "2025-08-21T02:28:32.921Z"
+    },
+    {
+      "id": "4f176a21-1897-47dc-97c6-54d55276e8d8",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Leisure",
+      "description": "",
+      "datetime": "2025-08-21T02:28:32.925Z",
+      "createdAt": "2025-08-21T02:28:32.925Z"
+    },
+    {
+      "id": "7eb63f61-8292-434d-ab17-ed0d9c90ee70",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Financial Services",
+      "description": "",
+      "datetime": "2025-08-21T02:28:32.929Z",
+      "createdAt": "2025-08-21T02:28:32.929Z"
+    },
+    {
+      "id": "04abd059-faa1-48a7-88fc-42882dd01b4a",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Transportation",
+      "description": "",
+      "datetime": "2025-08-21T02:28:32.936Z",
+      "createdAt": "2025-08-21T02:28:32.936Z"
+    },
+    {
+      "id": "1a2e1b36-7e2c-43ba-9dca-a66cab13a3c5",
+      "userId": "00a41dd9-c82f-4fd1-afcd-54c2733d6c3a",
+      "type": "expense",
+      "value": 50,
+      "category": "Food",
+      "description": "Groceries",
+      "datetime": "2025-08-21T02:29:29.985Z",
+      "createdAt": "2025-08-21T02:29:29.985Z"
+    },
+    {
+      "id": "95d3e102-eede-44fe-bcf0-f25b4fbbf336",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "income",
+      "value": 1000,
+      "category": "Financial Services",
+      "description": "Donation",
+      "datetime": "2025-08-21T02:29:29.990Z",
+      "createdAt": "2025-08-21T02:29:29.990Z"
+    },
+    {
+      "id": "857ef66a-7b2a-42a9-bb8c-c6bce44a5f79",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 20,
+      "category": "Pet",
+      "description": "",
+      "datetime": "2025-08-21T02:29:29.995Z",
+      "createdAt": "2025-08-21T02:29:29.995Z"
+    },
+    {
+      "id": "91eed8f5-4555-4e1c-a490-bc34b632a3fc",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Food",
+      "description": "",
+      "datetime": "2025-08-21T02:29:30.005Z",
+      "createdAt": "2025-08-21T02:29:30.005Z"
+    },
+    {
+      "id": "5530617f-c99e-44f4-8739-0b35c580a4d5",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Housing",
+      "description": "",
+      "datetime": "2025-08-21T02:29:30.011Z",
+      "createdAt": "2025-08-21T02:29:30.011Z"
+    },
+    {
+      "id": "8eff8665-510d-4cd1-b218-0968fc704fe7",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Transportation",
+      "description": "",
+      "datetime": "2025-08-21T02:29:30.015Z",
+      "createdAt": "2025-08-21T02:29:30.015Z"
+    },
+    {
+      "id": "d1059905-1d20-4270-ae47-6e4465de3070",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Education",
+      "description": "",
+      "datetime": "2025-08-21T02:29:30.019Z",
+      "createdAt": "2025-08-21T02:29:30.019Z"
+    },
+    {
+      "id": "f032f359-947e-4b71-bfea-2a7e1c7779a0",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Pet",
+      "description": "",
+      "datetime": "2025-08-21T02:29:30.023Z",
+      "createdAt": "2025-08-21T02:29:30.023Z"
+    },
+    {
+      "id": "c0484260-3e1e-4da6-8d81-b10bb9097cab",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Health",
+      "description": "",
+      "datetime": "2025-08-21T02:29:30.028Z",
+      "createdAt": "2025-08-21T02:29:30.028Z"
+    },
+    {
+      "id": "dfd31133-0d2b-426d-ac69-411ad7c0491a",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Personal",
+      "description": "",
+      "datetime": "2025-08-21T02:29:30.032Z",
+      "createdAt": "2025-08-21T02:29:30.032Z"
+    },
+    {
+      "id": "92356544-d108-4ff0-9580-5eb93daa9d00",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Leisure",
+      "description": "",
+      "datetime": "2025-08-21T02:29:30.036Z",
+      "createdAt": "2025-08-21T02:29:30.036Z"
+    },
+    {
+      "id": "c9a6c152-aa0a-452b-9f96-5c92d2c5a926",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Financial Services",
+      "description": "",
+      "datetime": "2025-08-21T02:29:30.040Z",
+      "createdAt": "2025-08-21T02:29:30.040Z"
+    },
+    {
+      "id": "9a00461b-e9a5-4606-8ff7-753884d937a3",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Transportation",
+      "description": "",
+      "datetime": "2025-08-21T02:29:30.046Z",
+      "createdAt": "2025-08-21T02:29:30.046Z"
+    },
+    {
+      "id": "a693d3e3-2dc9-4000-9754-f17b239000ff",
+      "userId": "00a41dd9-c82f-4fd1-afcd-54c2733d6c3a",
+      "type": "expense",
+      "value": 50,
+      "category": "Food",
+      "description": "Groceries",
+      "datetime": "2025-08-21T02:35:23.345Z",
+      "createdAt": "2025-08-21T02:35:23.345Z"
+    },
+    {
+      "id": "48d3d725-558e-4d88-8de7-00a4c4b61fc2",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "income",
+      "value": 1000,
+      "category": "Financial Services",
+      "description": "Donation",
+      "datetime": "2025-08-21T02:35:23.350Z",
+      "createdAt": "2025-08-21T02:35:23.350Z"
+    },
+    {
+      "id": "1642fc4e-7efa-49e1-99d5-39a3a35261a0",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 20,
+      "category": "Pet",
+      "description": "",
+      "datetime": "2025-08-21T02:35:23.355Z",
+      "createdAt": "2025-08-21T02:35:23.355Z"
+    },
+    {
+      "id": "eef1b944-6b8f-4be4-8c5d-cdf581fca581",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Food",
+      "description": "",
+      "datetime": "2025-08-21T02:35:23.365Z",
+      "createdAt": "2025-08-21T02:35:23.365Z"
+    },
+    {
+      "id": "df0a5a8a-597b-4af9-9848-f3b06d15518c",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Housing",
+      "description": "",
+      "datetime": "2025-08-21T02:35:23.371Z",
+      "createdAt": "2025-08-21T02:35:23.371Z"
+    },
+    {
+      "id": "676ebe28-bad7-4929-a01f-e1414a84b28f",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Transportation",
+      "description": "",
+      "datetime": "2025-08-21T02:35:23.376Z",
+      "createdAt": "2025-08-21T02:35:23.376Z"
+    },
+    {
+      "id": "aa89b470-a7d6-44d8-af5b-145e4997ba6c",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Education",
+      "description": "",
+      "datetime": "2025-08-21T02:35:23.380Z",
+      "createdAt": "2025-08-21T02:35:23.380Z"
+    },
+    {
+      "id": "737b8490-f005-4fc0-bb1f-f41c0aa5431e",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Pet",
+      "description": "",
+      "datetime": "2025-08-21T02:35:23.385Z",
+      "createdAt": "2025-08-21T02:35:23.385Z"
+    },
+    {
+      "id": "9c728869-f3dc-45c4-a8c0-b9102a7c2637",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Health",
+      "description": "",
+      "datetime": "2025-08-21T02:35:23.389Z",
+      "createdAt": "2025-08-21T02:35:23.389Z"
+    },
+    {
+      "id": "f48c0753-b98f-435f-9a00-38d3d4637fa1",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Personal",
+      "description": "",
+      "datetime": "2025-08-21T02:35:23.394Z",
+      "createdAt": "2025-08-21T02:35:23.394Z"
+    },
+    {
+      "id": "42420184-3d9b-41cb-91fd-d52bab334203",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Leisure",
+      "description": "",
+      "datetime": "2025-08-21T02:35:23.398Z",
+      "createdAt": "2025-08-21T02:35:23.398Z"
+    },
+    {
+      "id": "e78d8aa2-3d9f-4cd8-906d-ce9557121bf7",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Financial Services",
+      "description": "",
+      "datetime": "2025-08-21T02:35:23.402Z",
+      "createdAt": "2025-08-21T02:35:23.402Z"
+    },
+    {
+      "id": "2fb5e27e-67df-41f7-a448-b6e5c2187904",
+      "userId": "696057b5-1266-43f7-9b4c-c632674f00ac",
+      "type": "expense",
+      "value": 10,
+      "category": "Transportation",
+      "description": "",
+      "datetime": "2025-08-21T02:35:23.409Z",
+      "createdAt": "2025-08-21T02:35:23.409Z"
     }
   ]
 }
