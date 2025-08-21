@@ -1,0 +1,24 @@
+name: 'Financial Control API - CI'
+
+on:
+  workflow_dispatch:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+
+    env:
+      BASE_URL: 'http://localhost:3000'
+
+    steps:
+      - name: Repo checkout
+        uses: actions/checkout@v4
+
+      - name: Install deps
+        run: npm install
+
+      - name: Start server
+        run: npm start
+
+      - name: Execute tests
+        run: npm test
