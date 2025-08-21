@@ -1,6 +1,6 @@
 const express = require('express');
 const Transaction = require('../models/Transaction');
-const database = require('../data/database');
+const database = require('../../data/database');
 
 const router = express.Router();
 

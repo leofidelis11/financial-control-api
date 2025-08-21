@@ -3,8 +3,8 @@
 
 const fs = require('fs');
 const path = require('path');
-const User = require('../models/User');
-const Transaction = require('../models/Transaction');
+const User = require('../src/models/User');
+const Transaction = require('../src/models/Transaction');
 
 const DATA_DIR = __dirname;
 const DB_FILE = path.join(DATA_DIR, 'db.json');

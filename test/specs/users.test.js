@@ -1,7 +1,7 @@
 const { expect } = require('chai');
 require('dotenv').config();
 
-const { checkBalance, createUser, deleteUser } = require('./helpers/users.js');
+const { checkBalance, createUser, deleteUser } = require('../helpers/users.js');
 
 describe('Users', () => {
     describe('GET/api/users', () => {
