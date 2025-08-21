@@ -1,7 +1,7 @@
 const { expect } = require('chai');
 require('dotenv').config();
 
-const { performTransaction } = require('./helpers/transactions.js');
+const { performTransaction } = require('../helpers/transactions.js');
 
 describe('Transactions', () => {
     describe('POST/api/transactions', () => {

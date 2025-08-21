@@ -5,8 +5,8 @@ const morgan = require('morgan');
 const swaggerJsdoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
 
-const userRoutes = require('./routes/userRoutes');
-const transactionRoutes = require('./routes/transactionRoutes');
+const userRoutes = require('./src/routes/userRoutes');
+const transactionRoutes = require('./src/routes/transactionRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
