@@ -1,7 +1,7 @@
 name: 'Financial Control API - CI'
 
 on:
-  workflow_dispatch:
+  push:
 
 jobs:
   tests:
