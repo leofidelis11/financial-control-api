@@ -1,7 +1,7 @@
 const request = require('supertest');
 require('dotenv').config();
 
-const performTransaction = async (userId, type, value, category, description, datetime) =>  {
+const performTransaction = async (userId, type, value, category, description, datetime) => {
     const response = await request(process.env.BASE_URL)
         .post('/api/transactions')
         .set('Content-Type', 'application/json')
@@ -11,8 +11,8 @@ const performTransaction = async (userId, type, value, category, description, da
             value: value,
             category: category,
             description: description,
-            datetime: datetime                    
-    }));
+            datetime: datetime
+        }));
     return response;
 }
 
