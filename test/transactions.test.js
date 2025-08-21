@@ -1,10 +1,11 @@
 const request = require('supertest');
 const { expect } = require('chai');
+require('dotenv').config();
 
 describe('Transactions', () => {
     describe('POST/api/transactions', () => {
         it('Should return status code 400 when perform transaction with value equal to zero', async () => {
-            const response = await request('http://localhost:3000')
+            const response = await request(process.env.BASE_URL)
                 .post('/api/transactions')
                 .set('Content-Type', 'application/json')
                 .send({
@@ -19,8 +20,8 @@ describe('Transactions', () => {
                 expect(response.body.errors[0]).to.equal('Value is required and must be a positive number');
         });
 
-        it('Should return status code 400 when perform transaction with negativevalue', async () => {
-            const response = await request('http://localhost:3000')
+        it('Should return status code 400 when perform transaction with negative value', async () => {
+            const response = await request(process.env.BASE_URL)
                 .post('/api/transactions')
                 .set('Content-Type', 'application/json')
                 .send({
@@ -36,7 +37,7 @@ describe('Transactions', () => {
         });
 
         it('Should return status code 400 when perform transaction with null value', async () => {
-            const response = await request('http://localhost:3000')
+            const response = await request(process.env.BASE_URL)
                 .post('/api/transactions')
                 .set('Content-Type', 'application/json')
                 .send({
@@ -52,7 +53,7 @@ describe('Transactions', () => {
         });
 
         it('Should return status code 201 when perform transaction with positive value', async () => {
-            const response = await request('http://localhost:3000')
+            const response = await request(process.env.BASE_URL)
                 .post('/api/transactions')
                 .set('Content-Type', 'application/json')
                 .send({

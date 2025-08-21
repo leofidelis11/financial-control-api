@@ -1,12 +1,13 @@
 const request = require('supertest');
 const { expect } = require('chai');
+require('dotenv').config();
 
 describe('Users', () => {
     describe('GET/api/users', () => {
         it('Should return 200 status code and correct amount when perform check balance', async () => {
             const userId = `cfd4a03a-bf7b-4a3d-91c0-9c2933efc728`
         
-            const response = await request('http://localhost:3000')
+            const response = await request(process.env.BASE_URL)
             .get(`/api/users/${userId}/balance`)
             .set('Content-Type', 'application/json');
             
@@ -20,7 +21,7 @@ describe('Users', () => {
 
     describe('POST/api/users', () => {
         it('Should return 400 status code when create new user without e-mail', async () => {        
-            const response = await request('http://localhost:3000')
+            const response = await request(process.env.BASE_URL)
             .post('/api/users/')
             .set('Content-Type', 'application/json')
             .send({
@@ -33,7 +34,7 @@ describe('Users', () => {
         });
 
         it('Should return 201 status code when create new user with valid credentials', async () => {        
-            const response = await request('http://localhost:3000')
+            const response = await request(process.env.BASE_URL)
             .post('/api/users/')
             .set('Content-Type', 'application/json')
             .send({
@@ -46,7 +47,7 @@ describe('Users', () => {
 
             //delete user
             const userId = response.body.id
-            await request('http://localhost:3000')
+            await request(process.env.BASE_URL)
             .delete(`/api/users/${userId}`)
             .set('Content-Type', 'application/json');
         });
