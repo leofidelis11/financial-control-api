@@ -97,12 +97,6 @@ financial-control-api/
 | `DELETE` | `/api/transactions/:id` | Delete transaction |
 | `GET` | `/api/transactions/categories` | Get available categories |
 
-### Filtering Transactions
-
-Filter transactions by period and/or category:
-```
-GET /api/transactions/user/:userId/filter?startDate=2024-01-01&endDate=2024-01-31&category=Food
-```
 
 ## 🚀 Getting Started
 
@@ -124,7 +118,19 @@ GET /api/transactions/user/:userId/filter?startDate=2024-01-01&endDate=2024-01-3
    npm install
    ```
 
-3. **Start the server**
+3.  **Install and configure dotenv**
+   ```bash
+   # Install dotenv dependency
+   npm i dotenv
+   
+   # Create a file on project root called '.env' and add the info:
+   BASE_URL="http://localhost:3000"
+   ```
+3.  **Install k6**
+   ```bash
+   winget install k6 --source winget
+   ```
+4. **Start the server**
    ```bash
    # Development mode (with auto-reload)
    npm run dev
@@ -133,7 +139,7 @@ GET /api/transactions/user/:userId/filter?startDate=2024-01-01&endDate=2024-01-3
    npm start
    ```
 
-4. **Access the API**
+5. **Access the API**
    - API Base URL: `http://localhost:3000`
    - Swagger Documentation: `http://localhost:3000/api-docs`
    - Health Check: `http://localhost:3000/health`
@@ -146,34 +152,28 @@ GET /api/transactions/user/:userId/filter?startDate=2024-01-01&endDate=2024-01-3
 2. Use the interactive interface to test all endpoints
 3. View request/response schemas and examples
 
-### Using cURL or Postman
+### Functional Test Automation
 
-#### Create a User
 ```bash
-curl -X POST http://localhost:3000/api/users \
-  -H "Content-Type: application/json" \
-  -d '{
-    "name": "John Doe",
-    "email": "john@example.com"
-  }'
+npm test
 ```
 
-#### Create a Transaction
+### Performance Testing with k6
+
 ```bash
-curl -X POST http://localhost:3000/api/transactions \
-  -H "Content-Type: application/json" \
-  -d '{
-    "userId": "user-uuid-here",
-    "type": "expense",
-    "value": 50.00,
-    "category": "Food",
-    "description": "Grocery shopping"
-  }'
+npm test:balance       # Run performance of check balance functionality
+
+npm test:transaction   # Run performance of post transaction
+
+npm test:user          # Run performance of search all users
+
+npm test:all           # Run all performance test scripts
 ```
 
-#### Get User Balance
+### k6 Web Dashboard and HTML Report
+
 ```bash
-curl http://localhost:3000/api/users/user-uuid-here/balance
+K6_WEB_DASHBOARD=true K6_WEB_DASHBOARD_EXPORT=html-report.html k6 run relative.script.path.js
 ```
 
 ## 📊 Business Rules
@@ -203,17 +203,6 @@ The API returns appropriate HTTP status codes and error messages:
 - `404` - Not Found
 - `409` - Conflict (e.g., duplicate email)
 
-## 🚀 Deployment
-
-### Development
-```bash
-npm run dev
-```
-
-### Production
-```bash
-npm start
-```
 
 ## 🆘 Support
 
