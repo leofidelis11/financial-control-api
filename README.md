@@ -211,17 +211,6 @@ The API runs on port 3000 by default. You can change this by setting the `PORT` 
 PORT=8080 npm start
 ```
 
-## 🚨 Error Handling
-
-The API returns appropriate HTTP status codes and error messages:
-
-- `200` - Success
-- `201` - Created
-- `400` - Bad Request (validation errors)
-- `404` - Not Found
-- `409` - Conflict (e.g., duplicate email)
-
-
 ## 🆘 Support
 
 For support and questions, please open an issue in the repository.
