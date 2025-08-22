@@ -57,7 +57,6 @@ financial-control-api/
 - `value`: Transaction amount (required, > 0)
 - `category`: Predefined category (required)
 - `description`: Optional description
-- `datetime`: Transaction date and time
 - `createdAt`: Creation timestamp
 - `updatedAt`: Last update timestamp
 
