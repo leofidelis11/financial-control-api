@@ -24,20 +24,38 @@ A REST API for personal financial control built with Node.js and Express. This A
 
 ## 📁 Project Structure
 
-```
+```plaintext
 financial-control-api/
-├── models/
-│   ├── User.js              # User model with validation
-│   └── Transaction.js       # Transaction model with categories
-├── routes/
-│   ├── userRoutes.js        # User endpoints
-│   └── transactionRoutes.js # Transaction endpoints
+├── .github/
+│   └── workflows/
+│       └── main.yml                 # CI pipeline with GitHub Actions
 ├── data/
-│   └── database.js          # In-memory data storage
-├── server.js                # Main server file
-├── package.json             # Dependencies and scripts
-└── README.md               # Project documentation
+│   ├── database.js                  # In-memory data storage
+│   ├── db.json                      # Simulated database file
+│   └── seedUsers.json               # Initial user seed data
+├── src/
+│   ├── models/
+│   │   ├── User.js                  # User model with validations
+│   │   └── Transaction.js           # Transaction model with category handling
+│   └── routes/
+│       ├── userRoutes.js            # API endpoints related to users
+│       └── transactionRoutes.js     # API endpoints related to transactions
+├── test/
+│   ├── helpers/                     # Helper functions for testing
+│   │   ├── transactions.js
+│   │   └── users.js
+│   ├── performance/                 # API performance tests
+│   │   ├── checkBalance.test.js
+│   │   ├── transaction.test.js
+│   │   └── usersSearch.test.js
+│   └── specs/                       # Functional automated tests
+│       ├── transactions.test.js
+│       └── users.test.js
+├── server.js                        # Entry point for the Express server
+├── package.json                     # Project dependencies and scripts
+└── README.md                        # Project documentation
 ```
+
 
 ## 🏗️ Architecture
 
