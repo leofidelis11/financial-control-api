@@ -10,8 +10,6 @@ A REST API for personal financial control built with Node.js and Express. This A
 - **User Management**: Create, read, update, and delete users
 - **Transaction Management**: Track income and expenses with detailed categorization
 - **Balance Calculation**: Automatic calculation of user financial balance
-- **Filtering**: Filter transactions by period and category
-- **Validation**: Comprehensive input validation and error handling
 - **API Documentation**: Interactive Swagger documentation
 
 ## 🛠️ Technologies Used
@@ -205,14 +203,6 @@ The API returns appropriate HTTP status codes and error messages:
 - `400` - Bad Request (validation errors)
 - `404` - Not Found
 - `409` - Conflict (e.g., duplicate email)
-- `500` - Internal Server Error
-
-## 🔒 Security Features
-
-- **Helmet**: Security headers
-- **CORS**: Cross-origin resource sharing configuration
-- **Input Validation**: Comprehensive validation for all inputs
-- **Error Handling**: Secure error messages without exposing internals
 
 ## 🚀 Deployment
 
@@ -226,25 +216,6 @@ npm run dev
 npm start
 ```
 
-### Environment Variables
-- `PORT`: Server port (default: 3000)
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📝 License
-
-This project is licensed under the MIT License.
-
 ## 🆘 Support
 
 For support and questions, please open an issue in the repository.
-
----
-
-**Note**: This API uses in-memory storage for development purposes. For production use, consider implementing a persistent database solution like PostgreSQL, MongoDB, or MySQL.
