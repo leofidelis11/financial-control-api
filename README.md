@@ -127,7 +127,7 @@ financial-control-api/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/leofidelis11/financial-control-api.git
    cd financial-control-api
    ```
 
