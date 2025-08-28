@@ -1,6 +1,6 @@
 # Financial Control API
 
-This application was developed with the objective to show expertise in test plan, strategy and execution, simulated into agile environment. This project is a MVP, so improvements and new features could be implemented. The main focus of this repo is the documentation in Wiki, bugs reported in Issues, test automation of functional and non functional requirements as well as CI pipeline. Moreover, the development structure was created with use of IA, which leverage knowledge in prompt engineering, but automated functional and non functional tests and CI pipeline were built manually by project's owner.
+This application was developed with the objective to show expertise in test plan, strategy and execution, simulated into agile environment. This project is a MVP, so improvements and new features could be implemented. The main focus of this repo is the documentation in Wiki, bugs reported in Issues, test automation of functional and non functional requirements as well as CI pipeline. Moreover, the development structure was created with use of AI, which leverages knowledge in prompt engineering, but automated functional and non functional tests and CI pipeline were built manually by project's owner.
 
 ## 🎯 Objective
 A REST API for personal financial control built with Node.js and Express. This API allows users to manage their incomes and expenses, categorize transactions, and track their financial balance.
